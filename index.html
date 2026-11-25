@@ -1,1 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Suhair Habib | Computer Engineer &amp; Software QA Specialist</title>
+  <style>
+    :root {
+      --primary: #0f172a;
+      --accent: #2563eb;
+      --bg: #f8fafc;
+      --card: #ffffff;
+      --text: #334155;
+      --muted: #64748b;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    header {
+      background: var(--primary);
+      color: #ffffff;
+      padding: 4rem 1.5rem;
+      text-align: center;
+    }
+    header h1 { font-size: 2.4rem; margin-bottom: 0.5rem; }
+    header p { font-size: 1.1rem; color: #cbd5e1; max-width: 700px; margin: 0 auto 1.5rem; }
+    .links a {
+      display: inline-block;
+      margin: 0.25rem 0.5rem;
+      padding: 0.6rem 1.2rem;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.95rem;
+    }
+    .btn-primary { background: var(--accent); color: #fff; }
+    .btn-outline { border: 1px solid #94a3b8; color: #f8fafc; }
+    main { max-width: 900px; margin: 2.5rem auto; padding: 0 1.5rem; }
+    section {
+      background: var(--card);
+      border-radius: 10px;
+      padding: 2rem;
+      margin-bottom: 1.75rem;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+    }
+    h2 { color: var(--primary); margin-bottom: 1rem; border-bottom: 2px solid #e2e8f0; padding-bottom: 0.4rem; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; }
+    .skill-box { background: #f1f5f9; padding: 1rem; border-radius: 8px; }
+    .skill-box h3 { font-size: 1rem; color: var(--primary); margin-bottom: 0.4rem; }
+    .project-card { border-left: 4px solid var(--accent); padding-left: 1rem; margin-bottom: 1rem; }
+    .project-card a { color: var(--accent); font-weight: 600; text-decoration: none; }
+    footer { text-align: center; padding: 2rem; color: var(--muted); font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Suhair Habib</h1>
+    <p>Computer Engineer | Software &amp; Web Developer | QA &amp; Project Operations</p>
+    <div class="links">
+      <a href="https://github.com/suhair-habib" class="btn-primary">GitHub Profile</a>
+      <a href="https://www.linkedin.com/in/suhair-habib/" class="btn-outline">LinkedIn</a>
+    </div>
+  </header>
 
+  <main>
+    <section>
+      <h2>About Me</h2>
+      <p>
+        Computer Engineering graduate with over 20 years of cross-functional experience spanning software and web development,
+        quality assurance testing, engineering document control, and project coordination. Currently completing P.Eng. registration
+        with APEGA and preparing for the NPPE in Edmonton, Alberta.
+      </p>
+    </section>
+
+    <section>
+      <h2>Core Competencies</h2>
+      <div class="grid">
+        <div class="skill-box">
+          <h3>Development &amp; Databases</h3>
+          <p>Java, C#, C/C++, JavaScript, HTML5, CSS3, SQL, WordPress</p>
+        </div>
+        <div class="skill-box">
+          <h3>Software Quality Assurance</h3>
+          <p>Manual &amp; Automated Testing, Test Case Design, UAT, Defect Triage</p>
+        </div>
+        <div class="skill-box">
+          <h3>Operations &amp; Document Control</h3>
+          <p>Automated Document Systems, Data Migration, Microsoft 365 &amp; Google Workspace</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Featured Projects</h2>
+      <div class="project-card">
+        <h3><a href="https://github.com/suhair-habib/qa-sql-data-validation-suite">QA &amp; SQL Data Migration Validation Suite</a></h3>
+        <p>Automated SQL verification queries, referential integrity checks, and UAT sign-off templates for enterprise data migrations.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2026 Suhair Habib &bull; Hosted on GitHub Pages
+  </footer>
+</body>
+</html>
